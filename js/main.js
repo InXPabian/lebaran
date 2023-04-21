@@ -45,6 +45,8 @@ const elts = {
 
 const texts = [
   "Selamat",
+  "Hari",
+  "Raya",
   "Idul",
   "Fitri",
   "Mohon",
