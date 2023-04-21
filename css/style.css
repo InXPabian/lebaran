@@ -180,7 +180,7 @@ body {
     width: 100%;
     display: inline-block;
     font-family: 'Bungee Shade', cursive;
-    font-size: 35pt;
+    font-size: 30pt;
     color: aqua;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.596);
@@ -321,6 +321,15 @@ body {
   .episode .eps-btn {
   font-size: 15px;
 }
+    #text1,
+#text2 {
+    font-size: 30pt;
+}
+   .section .ketupat {
+    position: absolute;
+    width: 35%;
+    margin-top: -11.7rem;
+  }
 }
 
 /*for medium device*/
@@ -355,7 +364,7 @@ body {
   }
    #text1,
 #text2 {
-    font-size: 35pt;
+    font-size: 30pt;
 }
    .section .ketupat {
     position: absolute;
@@ -379,6 +388,15 @@ body {
   }
   .movie-box {
     margin-top: 30px;
+  }
+    #text1,
+#text2 {
+    font-size: 30pt;
+}
+   .section .ketupat {
+    position: absolute;
+    width: 35%;
+    margin-top: -11.7rem;
   }
 }
 @media (max-width:408px) {
