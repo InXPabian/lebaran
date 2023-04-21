@@ -180,7 +180,7 @@ body {
     width: 100%;
     display: inline-block;
     font-family: 'Bungee Shade', cursive;
-    font-size: 50pt;
+    font-size: 35pt;
     color: aqua;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.596);
@@ -353,6 +353,15 @@ body {
    .episode .eps-btn {
      font-size: 15px;
   }
+   #text1,
+#text2 {
+    font-size: 35pt;
+}
+   .section .ketupat {
+    position: absolute;
+    width: 35%;
+    margin-top: -11.7rem;
+  }
 }
 
 @media (max-width:514px) {
@@ -401,6 +410,11 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
   }
+    .section .ketupat {
+    position: absolute;
+    width: 37%;
+    margin-top: -11.9rem;
+  }
 }
 /*for small device*/
 @media (max-width: 370px) {
@@ -427,5 +441,10 @@ body {
   }
   .download-links {
     grid-template-columns: 1fr;
+  }
+  .section .ketupat {
+    position: absolute;
+    width: 35%;
+    margin-top: -9.3rem;
   }
 }
